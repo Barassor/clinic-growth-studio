@@ -109,7 +109,10 @@
       .ba-panel .digital-shot.before .feed-tile:nth-child(2){height:30px}
       .ba-panel .digital-shot.before .feed-tile:nth-child(3){height:17px}
       .ba-panel .metric-pill{font-size:10px;line-height:1.2;white-space:normal;max-width:100%;padding:5px 7px}
-      .packages-grid{display:flex;grid-template-columns:none;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0;padding:0 0 8px;max-width:100%}
+      .packages-grid{display:flex;grid-template-columns:none;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0;padding:0 0 14px;max-width:100%;scrollbar-width:thin;scrollbar-color:rgba(185,155,103,.7) rgba(27,37,33,.08);-webkit-overflow-scrolling:touch}
+      .packages-grid::-webkit-scrollbar{height:7px}
+      .packages-grid::-webkit-scrollbar-track{background:rgba(27,37,33,.08);border-radius:999px}
+      .packages-grid::-webkit-scrollbar-thumb{background:rgba(185,155,103,.75);border-radius:999px}
       .package{min-width:82%;scroll-snap-align:center;padding:22px;border-radius:26px}
       .package:not(.featured){display:block}
       .package.featured{padding:22px;border-radius:26px}
@@ -118,7 +121,10 @@
       .package ul{margin-top:18px;gap:9px}
       .package li:nth-child(n+6){display:list-item}
       .services{display:block}
-      .services-grid{display:flex;grid-template-columns:none;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0;padding:0 0 8px;max-width:100%}
+      .services-grid{display:flex;grid-template-columns:none;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0;padding:0 0 14px;max-width:100%;scrollbar-width:thin;scrollbar-color:rgba(185,155,103,.7) rgba(27,37,33,.08);-webkit-overflow-scrolling:touch}
+      .services-grid::-webkit-scrollbar{height:7px}
+      .services-grid::-webkit-scrollbar-track{background:rgba(27,37,33,.08);border-radius:999px}
+      .services-grid::-webkit-scrollbar-thumb{background:rgba(185,155,103,.75);border-radius:999px}
       .service{min-width:72%;min-height:126px;padding:18px;border-radius:22px;scroll-snap-align:center}
       .service h3{font-size:18px}
       .service p{font-size:13px}
